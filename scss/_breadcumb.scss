@@ -1,0 +1,161 @@
+/*========== banner-area css ===========*/
+.banner-area{
+//    background-image: -moz-linear-gradient( 0deg, rgb(71,118,230) 0%, rgb(142,84,233) 100%);
+//    background-image: -webkit-linear-gradient( 0deg, rgb(71,118,230) 0%, rgb(142,84,233) 100%);
+//    background-image: -ms-linear-gradient( 0deg, rgb(71,118,230) 0%, rgb(142,84,233) 100%);
+    padding: 240px 0px 187px;
+    text-align: center;
+    background: url("../image/banner.jpg") no-repeat scroll center 0 / cover;
+    position: relative;
+    z-index: 1;
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #000;
+        opacity: 0.35;
+        position: absolute;
+        z-index: -1;
+    }
+    color: #fff;
+    p{
+        font:400 18px $rob; 
+    }
+}
+.about_area {
+    background: url("../image/blog/about_bg.jpg") no-repeat scroll center 0 / cover;
+}
+.faq_area {
+    background: url("../image/blog/faq_bg.jpg") no-repeat scroll center 0 / cover;
+}
+.contact_area {
+    background: url("../image/blog/contact_bg.jpg") no-repeat scroll center 0 / cover;
+}
+.pricing_area {
+    background: url("../image/blog/pricing_bg.jpg") no-repeat scroll center 0 / cover;
+    &:before {
+        background: rgba(255,232,178,1);
+    }
+}
+.page-cover-tittle{
+    font: 400 55px/65px $rob;
+    letter-spacing: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+//.page-breadcumb{
+//    font: 300 18px/30px $rob;
+//    color: #fff;
+//    padding-left: 4px;
+//    a{
+//        color: #fff;
+//    }
+//    span{
+//        &:before{
+//            content: "";
+//            width: 4px;
+//            height: 4px;
+//            background: #fff;
+//            border-radius: 50%;
+//            vertical-align: middle;
+//            display: inline-block;
+//            margin: 0px 9px;
+//        }
+//    }
+//}
+
+/*========================================         custom                  ===================================================*/
+
+.faq-area-2 .faq-inner-accordion .panel .panel-heading .panel-title a i {
+    color: #4776e6;
+}
+
+.call-action-area.voilat-bg-two.price_call {
+	padding-bottom: 70px;
+}
+
+.contact_info_item {
+	text-align: center;
+    h5 {
+        font-size: 20px;
+        line-height: 24px;
+        color: #282835;
+        font-weight: 500;
+        margin: 10px 0 0;
+    }
+    p,
+    a {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #797988;
+        margin-bottom: 0px;
+        transition: color 0.2s linear;
+    }
+}
+
+.contact_form {
+    padding-bottom: 100px;
+    .form-group {
+        .form-control {
+            background: #f8f8fc;
+            border: 1px solid #e9eef3;
+            border-radius: 3px;
+            box-shadow: none;
+            font-size: 14px;
+            line-height: 30px;
+            color: #a2aab3;
+            height: 48px;
+            padding: 6px 30px;
+        }
+        textarea.form-control {
+            height: 200px;
+            padding-top: 15px;
+        }
+        .thm-btn {
+            width: 100%;
+            font-size: 14px;
+            line-height: 30px;
+            font-weight: 500;
+            letter-spacing: 5px;
+            color: #5d58f7;
+            background: #FFF;
+            border-radius: 45px;
+            padding: 8px 0px;
+            border: 2px solid #5d58f7;
+            box-shadow: none;
+            text-transform: capitalize;
+            transition: background 0.3s linear, color 0.3s linear;
+            &:hover {
+                background: #5d58f7;
+                color: #FFF;
+            }
+        }
+        
+        .form-control.error + .error {
+            font: 13px/24px "Poppins", sans-serif;
+            font-weight: normal;
+            color: #3fcef7;
+            position: absolute;
+            bottom: -7px;
+            margin: 0px;
+            width: 80%;
+            left: 15px;
+            bottom: -10px;
+        }
+        
+    }
+}
+
+.contact-form #success,
+.contact-form #error {
+    display: none;
+}
+
+
+.map_area #map {
+    height: 450px;
+}

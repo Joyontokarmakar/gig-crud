@@ -1,0 +1,359 @@
+/*============= Start support area css =================*/
+.footer-top{
+    background: #2a2a2a;
+    padding: 118px 0px;
+    .footer_sidebar{
+        li a{
+            color: #fff;
+            &:hover{
+              color: $orang;   
+            }
+        }
+        .widget{
+            font: 400 16px/28px $rob;
+
+            color: rgba(255, 255, 255, 0.50);
+            .logo{
+                padding-bottom: 15px;
+                display: block;
+            }
+            .widget_title{
+                font: 700 16px/21px $rob;
+                color: #fff;
+                letter-spacing: 0.8px;
+                text-transform: uppercase;
+                padding-bottom: 33px;
+            }
+            &.about_us_widget{
+                .flogo{
+                    font-size: 36px;
+                    height: 70px !important;
+                    vertical-align: middle;
+                    font-family: 'Dancing Script', cursive;
+                    position: relative;
+                    line-height: 37px;
+                    font-weight: bold;
+                    color: $orang;
+                }
+                .social_icon{
+                    padding-top: 37px;
+                    li{
+                        display: inline-block;
+                        a{
+                            font-size: 14px;
+                            padding: 0px 0px 0px 18px;
+                            transition: all 0.1s linear;
+                            background: transparent;
+                            i{
+                                color: #fff;
+                                opacity: 0.50;
+                            }
+                        }
+                        &:hover{
+                            i{
+                                background-image: -moz-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                                background-image: -webkit-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                                background-image: -ms-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                opacity: 1;
+                            }
+                        }
+                        &:first-child{
+                            a{
+                                padding-left: 0px;
+
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            &.widget_contact{
+                ul{
+                    li{
+                        display: table;
+                        width: 100%;
+                        i{
+                            float: left;
+                            font-size: 14px;
+                            color: #fff;
+                            opacity: 0.30;
+                            line-height: 30px;
+                            width: 30px;
+                        }
+                        .fleft{
+                            float: left;
+                            width: calc(100% - 30px);
+                            a{
+                                color: #fff; 
+                                opacity: 0.50;
+                                &:hover{
+                                    background-image: -moz-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                                    background-image: -webkit-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                                    background-image: -ms-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent; 
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        & + li{
+                            padding-top: 2px;
+                             a{
+                                color:#fff;
+                                &:hover{
+                                    color: $orang;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.widget_twitter{
+                padding-right: 50px;
+                .tweets{
+                    li{
+                        width: 100%;
+                        display: table;
+                        a{
+                            color:#fff;
+                        }
+                        i{
+                            float: left;
+                            width: 35px;
+                            font-size: 16px;
+                            line-height: 30px;
+                            color: #fff;
+                            opacity: 0.20;
+                        }
+                        .tweets-text{
+                            float: left;
+                            width: calc(100% - 35px);
+                            a{
+                                opacity: 1;
+                                color: #fff;
+                                transition: all 0.1s linear;
+                                &:hover{
+                                    background-image: -moz-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                                    background-image: -webkit-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                                    background-image: -ms-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                }
+                            }
+                        }
+                        & + li{
+                            padding-top: 2px;
+                            a{
+                                color:#fff;
+                                &:hover{
+                                    color: $orang;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.widget_instagram{
+                .instagram-feed{
+                    margin-left: -3px;
+                    margin-right: -3px;
+                    li{
+                        display: inline-block;
+                        padding: 5px 3px 5px 3px;
+                    }
+                }
+                span{
+                    font-size: 14px;
+                    letter-spacing: 0.20px;
+                    padding-top: 17px;
+                    display: block;
+                    a{
+                        color: #fff;
+                        &:hover{
+                        background-image: -webkit-linear-gradient(55deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                        background-image: -o-linear-gradient(55deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                        background-image: linear-gradient(145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.footer_bottom{
+    background: #242424;
+    font: 400 16px/20px $rob;
+    color: rgba(255, 255, 255, 0.30);
+    padding: 30px 0px;
+    a{
+        color: #fff;
+        opacity: 0.3;
+        &:hover{
+            background-image: -moz-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+            background-image: -webkit-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+            background-image: -ms-linear-gradient( 145deg, rgb(250,166,31) 0%, rgb(237,24,71) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity: 1;
+        }
+    }
+    .footer-menu{
+        width: 100%;
+        text-align: right;
+        li{
+            display: inline-block;
+            & + li{
+                padding-left: 38px;
+            }
+        }
+    }
+}
+/*============= End footer area css =================*/
+
+
+.footer_two{
+    .footer-top{
+        .footer_sidebar{
+            .widget{
+                &.about_us_widget .social_icon li:hover i {
+                    color: #b166ff;
+                    -webkit-text-fill-color: initial;
+                }
+                &.widget_contact ul li .fleft a:hover,&.widget_twitter .tweets li .tweets-text a:hover,&.widget_instagram span a:hover{
+                    color: #b166ff;
+                    -webkit-text-fill-color: initial;
+                }
+            }
+        } 
+    }
+    .footer_bottom a:hover{
+        color: #b166ff;
+        -webkit-text-fill-color: initial;
+    }
+}
+
+
+.footer_three{
+    .footer-top{
+        .footer_sidebar{
+            .widget{
+                &.about_us_widget .social_icon li:hover i {
+                    color: #8675ff;
+                    -webkit-text-fill-color: initial;
+                }
+                &.widget_contact ul li .fleft a:hover,&.widget_twitter .tweets li .tweets-text a:hover,&.widget_instagram span a:hover{
+                    color: #8675ff;
+                    -webkit-text-fill-color: initial;
+                }
+            }
+        } 
+    }
+    .footer_bottom a:hover{
+        color: #8675ff;
+        -webkit-text-fill-color: initial;
+    }
+}
+
+
+.footer_four{
+    .footer-top{
+        .footer_sidebar{
+            .widget{
+                &.about_us_widget .social_icon li:hover i {
+                    background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+                    background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+                    background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+                }
+                &.widget_contact ul li .fleft a:hover,&.widget_twitter .tweets li .tweets-text a:hover,&.widget_instagram span a:hover{
+                    background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+                    background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+                    background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+                }
+            }
+        } 
+    }
+    .footer_bottom a:hover{
+        background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+        background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+        background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+    }
+}
+
+
+.footer_five{
+    .footer-top{
+        .footer_sidebar{
+            .widget{
+                &.about_us_widget .social_icon li:hover i {
+                    color: $orang;
+                    -webkit-text-fill-color: initial;
+                }
+                &.widget_contact ul li .fleft a:hover,&.widget_twitter .tweets li .tweets-text a:hover,&.widget_instagram span a:hover{
+                    color: $orang;
+                    -webkit-text-fill-color: initial;
+                }
+            }
+        } 
+    }
+    .footer_bottom a:hover{
+        color: $orang;
+        -webkit-text-fill-color: initial;
+    }
+}
+
+
+.footer-six .footer-top .footer_sidebar .widget.widget_contact ul li .fleft a:hover, .footer-six .footer-top .footer_sidebar .widget.widget_twitter .tweets li .tweets-text a:hover, .footer-six .footer-top .footer_sidebar .widget.widget_instagram span a:hover,.footer-six .footer-top .footer_sidebar .widget.about_us_widget .social_icon li:hover i,.footer-six .footer_bottom a:hover{
+    color: #4c83ff;
+    -webkit-text-fill-color: inherit;
+}
+
+.footer_area_seven{
+    background: #292c34;
+    font: 300 14px $mon;
+    color: #b4b8c2;
+    text-transform: uppercase;
+    padding: 71px 0px;
+    a{
+        color: #b4b8c2;
+        transition: all 0.2s linear;
+        &:hover{
+            color: #4a80f9;
+        }
+    }
+    .copy_right{
+        a{
+            color: #4a80f9;
+        }
+    }
+    .support_menu{
+        li{
+            display: inline-block;
+            float: none;
+            &:first-child{
+                a{
+                    border: 0px;
+                }
+            }
+            a{
+                padding: 0px 20px;
+                border-left: 1px solid #6a7183;
+                &:hover{
+                    background: transparent;
+                    color: #4a80f9;
+                }
+            }
+        }
+    }
+    .footer_icon{
+        text-align: right;
+        a{
+            & + a{
+                padding-left: 10px;
+            }
+        }
+    }
+}

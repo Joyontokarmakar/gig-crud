@@ -1,0 +1,24 @@
+/*=== fonts ====*/
+$mon:'Montserrat', sans-serif;
+$rob: 'Roboto', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700|Playball');
+
+/*===== color =====*/
+$dk-b:#404040;
+$p-color:#747474;
+$orang:#FF9100;
+ 
+// Mixins
+@mixin transition($property: all, $duration: 400ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}

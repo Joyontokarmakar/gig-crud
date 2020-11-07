@@ -1,0 +1,96 @@
+/*=========== Start clients-logo-area ==============*/
+.clients-logo-area{
+    padding: 150px 0px;
+}
+.clients-lg-slider{
+    .item{
+        a{
+            display: block;
+        }
+        img{
+            margin: 0 auto;
+            max-width: 100%;
+            width: auto;
+        }
+    }
+    .owl-dots{
+        .owl-dot{
+            background: #b2b2b2;
+            &.active,&:hover{
+                background: #f47078;
+            }
+        }
+    }
+}
+.clients-logo-one{
+    .owl-dots{
+        .owl-dot{
+            background: #adadad;
+            &.active,&:hover{
+                background: #8766e5;
+            }
+        }
+    }
+}
+/*=========== End clients-logo-area ==============*/
+
+/*============== partner_logo_area css ===========*/
+.partner_logo_area{
+    background: #fff;
+    text-align: center;
+    padding: 12px 0px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0px 0px 3px #b7b7b7;
+    img{
+        max-width: 100%;
+    }
+    .logo-list{
+        img{
+            margin: 0 30px;
+        }
+    }
+}
+
+
+.clients-logo-two{
+    .clients-lg-slider{
+        .owl-dots{
+            .owl-dot{
+                background: transparent;
+                border:1px solid #b166ff;
+                &.active,&:hover{
+                    background: #b166ff;
+                }
+            }
+        }
+    }
+}
+
+
+.clients-logo-three{
+    .clients-lg-slider{
+        .owl-dots{
+            .owl-dot{
+                background: transparent;
+                border:1px solid #8675ff;
+                &.active,&:hover{
+                    background: #8675ff;
+                }
+            }
+        }
+    }
+}
+
+.clients-logo-five{
+    padding-bottom: 90px;
+    .clients-lg-slider{
+        .owl-dots{
+            .owl-dot{
+                display: none;
+            }
+        }
+    }
+}
+
+

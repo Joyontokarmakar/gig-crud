@@ -1,0 +1,197 @@
+// INDEX.HTML
+.lnr{
+    color: black;
+}
+.btn-getnow{
+    color: black;
+}
+.bs-slider {
+    background: none;
+} 
+#home{
+    background: url("../image/hands-people-woman-working.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    text-align: left;
+}
+.banner-text{
+    width: 47%;
+}
+.banner-text>h1{
+    margin-bottom: 15px;
+}
+.search-tags{
+    margin: 15px auto;
+}
+.features_img_first{
+    max-width: 100%;
+}
+.best_freelancer .content{
+    min-height: 71px !important;
+}
+.best_freelancer h2{
+    font: 400 36px/45px "Roboto", sans-serif;
+    color: #1a264a;
+    padding-bottom: 15px;
+}
+.features_area_seven .features_content_two{
+    padding-left: 15px;
+}
+.navbar.affix-top{
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+}
+.navbar.affix-top a{
+    color: #404040;
+}
+.cat-menu{
+    padding-top: 70px;
+}
+.sec_title_five.sec_five{
+    margin-left: 17px;
+}
+.pull-right {
+    padding: 10px 35px;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 1024px){
+    .banner-text{
+        text-align: center;
+        width: 100%;
+    }
+    .input-group{
+        width: 56%;;
+    }
+    .search-tags{
+        display: flex;
+        margin: 7px 21%;
+    }
+    // footer .footer-top{
+    //     // display: none;
+    // }
+  }
+@media only screen and (max-width: 768px) {
+    .banner-text{
+        text-align: center;
+        width: 100%;
+    }
+    .input-group{
+        width: 67%;;
+    }
+    .search-tags{
+        display: flex;
+        margin: 7px 15%;
+    }
+    .sticky-nav-res{
+        background: white;
+    }
+    .navbar.affix-top a{
+        color: black;
+    }
+  }
+
+//   css for nav-search-on-scroll
+.invisible{
+    visibility: hidden;
+}
+.nav-search{
+    display: none;
+    color: #404040;
+
+    ::-webkit-input-placeholder {
+        line-height: inherit;
+        height: inherit;
+        color: #747474ce;
+    }
+}
+@media only screen and (min-width: 1336px){
+    .nav-search{
+        display: flex;
+        position: inherit;
+        input {
+            margin: 15px 40px;
+            margin-bottom: 16px;
+            border: 1px solid #74747452;
+            border-radius: 50px;
+            height: 43px;
+        }
+        input:focus{
+            border-color:#FF9100;
+            outline-style: none;
+        }
+    }
+}
+
+//   INDEX.HTML
+
+// ACCOUNT, SECURITY, NOTIFICATIONS, BILLING
+@media only screen and (max-width: 1024px){
+    .gig-dtails.settings .options .form-group{
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+
+// ACCOUNT, SECURITY, NOTIFICATIONS, BILLING
+
+//gigs
+.con_color{
+    margin-top: 0px;
+    background-color: white;
+}
+.tab{
+    background-color: #f9f9f9;
+    button.active {
+        background-color: #e2e2e2;
+    }
+} 
+.lo-sign-custom .google-btn {
+    color: #555555;
+    background: #f1f1f1;
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin: 0;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 5px;
+
+}
+.lo-sign-custom .fb-button {
+    border-color: #3B5998;
+    color: #fff;
+    background: #3B5998;
+    padding: 7px 14px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+.fa-facebook {
+    color: white;
+}
+.lo-sign-custom .form-group {
+    margin-bottom: 10px;
+    label {
+        padding: 0px;
+    }
+}
+.checkbox label::after{
+    top: 10px;
+}
+.nav-2{
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.footer-top .footer_sidebar .widget.about_us_widget .flogo {
+    font-family: 'coiny', cursive;
+    font-weight: 500;
+}
+
+.profile-create-steps .steps {
+    padding: 10px 0px;
+}

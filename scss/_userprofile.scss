@@ -1,0 +1,236 @@
+.mb0{
+  margin-bottom: 0;
+}
+.ml0{
+  margin-left: 0;
+}
+.orange{
+  color: $orang;
+}
+.mb15{
+  margin-bottom: 15px;
+}
+.fa-facebook{
+color: #3b5998;
+}
+.fa-google{
+color: #DB4437;
+}
+.fa-linkedin{
+color: #0077B5;
+}
+.profile-create-steps{
+  border-bottom: 1px solid #ececec;
+  overflow: hidden;
+  padding: 15px 30px;
+  font-size: 14px;
+  .progress-show{
+    color: #000;
+    font-size: 14px;
+  b{
+    color: $orang;
+  }
+
+    .progress-bar {
+      height: 8px;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 20px;
+      background-color: #CCCCCC;
+      span.core {
+        display: block;
+        animation-duration: 0.8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        background-attachment: scroll;
+        background-color: $orang;
+        background-repeat: repeat-x;
+        background-size: 20px 10px;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+  .steps{
+    float: left;
+    display: inline;
+  a{
+    display: inline;
+    float: left;
+    color: #000;
+    span{
+      box-shadow: 1px 1px 2px #dedede;
+      border: 1px solid #a8a8a8;
+      border-radius: 9%;
+      width: 20px;
+      height: 20px;
+      float: left;
+      line-height: 17px;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 4px;
+      margin-right: 8px;
+    }
+  }
+    i{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    &.active{
+      color: $orang;
+        a{
+          color: $orang;
+          span{
+            border:2px solid $orang;
+            background: $orang;
+            box-shadow: 1px 1px 2px #9b9b9b;
+            color: #fff;
+          }
+        }
+    }
+  }
+}
+
+.personal-info-section{
+margin-top: 30px;
+  margin-bottom: 50px;
+  .profile-max-width{
+    max-width: 980px;
+    .border-btm{
+      border-bottom: 1px solid #ededed;
+      margin-bottom: 30px;
+    }
+    p{
+      line-height: 19px;
+      font-size: 14px;
+      margin-top: 15px;
+      color: #959494;
+      margin-bottom: 30px;
+    }
+    small.pvt{
+      font-size: 12px;
+      margin-left: 10px;
+      color: #b0b0b0;
+      font-weight: lighter;
+    }
+    .form-control{
+      border-radius: 2px;
+      box-shadow: none;
+      border: 1px solid #e4e4e4;
+      &:focus{
+        border: 1px solid $orang;
+      }
+      &.tp15{
+        @media only screen and (max-width: 980px) {
+          margin-top: 15px;
+        }
+      }
+    }
+    .photo-upload-preview{
+      position: relative;
+      @media only screen and (max-width: 980px) {
+        margin: auto;
+        display: block;
+        width: 200px;
+      }
+      img.previewimg{
+        width: 200px;
+        height: 200px;
+      }
+      input[type="file"] {
+        display: none !important;
+      }
+      .custom-file-upload {
+        cursor: pointer;
+        position: absolute;
+        bottom: 25px;
+        left: 156px;
+        opacity: .7;
+        &:hover{
+          opacity: 1;
+        }
+      }
+    }
+    .language-table{
+      border:1px solid #e9e9e9;
+      thead{
+        background: #f8f8f8;
+        border: none;
+        tr{
+          th{
+            font-weight: normal;
+            border-bottom: none;
+          }
+        }
+      }
+      tbody{
+        border: none;
+        tr{
+          td{
+            border-top: 1px solid #efefef;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .btn-group.year{
+      width: auto !important;
+      margin-left: 5px;
+      @media only screen and (max-width: 980px) {
+        margin-top: 15px;
+      }
+    }
+    .skills-list{
+      .checkbox {
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .checkbox {
+        label{
+          &:after{
+            top: -2px;
+          }
+        }
+      }
+    }
+ .skill-text{
+   margin-bottom: 5px;
+ }
+ .newskill{
+   font-size: 13px;
+   font-weight: normal;
+ }
+    .suggestion{
+      margin: 0;
+      span{
+        background: #f6f6f6;
+        padding: 3px 4px;
+        border: 1px solid #e0e0e0;
+        border-radius: 3px;
+        margin-right: 2px;
+        font-size: 12px;
+      }
+    }
+    .connect{
+      width: 150px;
+      height: 39px;
+      &.active{
+        background: #a3f6ae !important;
+        border-color: #84f393 !important;
+      }
+    }
+    .verified{
+      color: #1aafff;
+      margin-left: 15px;
+    }
+    .help-c{
+      font-size: 13px;
+      color: #9e9e9e;
+    }
+  }
+
+}
+
+
+
+
